@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>404 - Not Found</title>
+  <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  body {
+    font-family: 'Libre Baskerville', serif;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body > video {
+    -webkit-transform: scaleX(2) scaleY(2);
+    -moz-transform: scaleX(2) scaleY(2);
+    transform: scaleX(2) scaleY(2);
+    height: 100vh;
+  }
+
+  .text {
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+    padding-top: 15%;
+  }
+
+  @media (min-width: 768px) {
+    .text {
+      width: 50%;
+    }
+  }
+  </style>
+</head>
+<body>
+  <div class="text">
+  </div>
+  
+  <video src="assets/bg.mp4" autoplay muted loop>
+</body>
+</html>
